@@ -1,0 +1,23 @@
+{
+  "name": "@company/utils",
+  "version": "0.1.0",
+  "private": false,
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "echo \"no lint yet\"",
+    "test": "echo \"no tests yet\"",
+    "release:patch": "npm version patch",
+    "release:minor": "npm version minor",
+    "release:major": "npm version major",
+    "publish:registry": "npm run build && npm publish"
+  },
+  "publishConfig": {
+    "registry": "https://gitlab.example.com/api/v4/packages/npm/"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

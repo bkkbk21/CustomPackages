@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Company.Common.Utils</AssemblyName>
+    <RootNamespace>Company.Common.Utils</RootNamespace>
+    <PackageId>Company.Common.Utils</PackageId>
+    <Description>Shared utility extensions for Company projects.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
